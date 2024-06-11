@@ -1,0 +1,21 @@
+
+local FlyScript = Instance.new("ScreenGui")
+local Gradient = Instance.new("Frame")
+local UIGradient = Instance.new("UIGradient")
+local UICorner = Instance.new("UICorner")
+local Button = Instance.new("TextButton")
+local Shadow = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+
+-- Thiết lập các thuộc tính cho các đối tượng
+FlyScript.Name = "FlyScript"
+FlyScript.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+FlyScript.ResetOnSpawn = false
+
+-- Thêm các tính năng như nút bấm, hiệu ứng gradient, v.v.
+
+-- Khi nút được nhấn, script bay sẽ được kích hoạt
+Button.MouseButton1Down:connect(function()
+    -- Thêm logic để tạo chức năng bay
+    -- Ví dụ: sử dụng BodyGyro và BodyVelocity để điều khiển chuyển động
+end)
